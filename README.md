@@ -16,7 +16,14 @@ Development environment:
 - Swift 5.1+
 - XCode 11.1+
 - Swift Package Manager
-- Carthage
+- Carthage `brew install carthage`
+
+# Build Instructions
+ - Clone repository
+ - Bootstrap carthage:
+     `carthage bootstrap --platform macOS`
+ - Update signing Team to be your Personal or organizational Team.
+ - Run
 
 # Report bugs
 
